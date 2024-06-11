@@ -1,0 +1,29 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:react/recommended",
+        "plugin:jsx-a11y/recommended",
+        "next/core-web-vitals"
+    ],
+    "plugins": ["@typescript-eslint", "react", "jsx-a11y"],
+    "settings": {
+        "react": {
+            "version": "detect"
+        },
+        "jsx-a11y": {
+            "components": {
+                "FontFamilySwitcher": "select"
+            }
+        }
+    },
+    "ignorePatterns": ["*.config.js", "dist", "node_modules"],
+    "rules": {
+        "react/react-in-jsx-scope": ["off"],
+        "no-unused-vars": ["warn"],
+        "@typescript-eslint/no-unused-vars": ["warn", {}],
+        "react/jsx-no-target-blank": ["off"],
+        "@typescript-eslint/ban-ts-comment": ["off", {}],
+        "no-useless-escape": ["off"]
+    }
+}
