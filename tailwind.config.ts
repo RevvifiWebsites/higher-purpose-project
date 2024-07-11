@@ -13,6 +13,10 @@ const config: Config = {
                 "light-gray": "hsl(163 24% 94%)",
             },
         },
+        container: {
+            center: true,
+            padding: '2rem'
+        }
     },
     plugins: [],
 };
