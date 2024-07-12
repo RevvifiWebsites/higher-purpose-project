@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: "A Higher Purpose Project.com",
+    description: 'The Higher Purpose Project is a social media non-profit where students volunteer to provide aid to the poor and downtrodden.',
+    keywords: ['volunteer', 'higher purpose', 'organization', 'student'],
+    
 };
 
 export default function RootLayout({
