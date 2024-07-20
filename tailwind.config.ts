@@ -8,9 +8,9 @@ const config: Config = {
     ],
     theme: {
         screens: {
-            sm: '375px',
-            md: '810px',
-            lg: '1024px'
+            sm: "375px",
+            md: "768px",
+            lg: "1024px",
         },
         extend: {
             colors: {
@@ -20,15 +20,18 @@ const config: Config = {
                 orange: "hsl(31 100% 50%)",
                 yellow: "hsl(49 97% 58%)",
                 beige: "hsl(47 92% 90%)",
+                "dark-gray": "hsl(118 72% 7%)",
+                blue: "hsl(193 94% 45%)",
+                "light-gray": "hsl(0 0% 97%)",
             },
         },
         container: {
             center: true,
             padding: "1.5rem",
             screens: {
-                sm: '100%',
-                lg: '70rem'
-            }
+                sm: "100%",
+                lg: "70rem",
+            },
         },
     },
     plugins: [],

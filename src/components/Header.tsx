@@ -52,9 +52,9 @@ const item = {
 export function MainNavigation() {
     const [open, setOpen] = useState(false);
     const navLinks = [
-        ["About Us", ""],
+        ["About Us", "#about-us"],
         ["Past Projects", "/past-projects"],
-        ["Our Mission", ""],
+        ["Our Mission", "#our-mission"],
         ["Core Members", ""],
         ["Join Us", "https://www.instagram.com/a.higherpurpose.foundation/"],
         ["Donate", ""],
@@ -132,3 +132,4 @@ export function MainNavigation() {
         </nav>
     );
 }
+
