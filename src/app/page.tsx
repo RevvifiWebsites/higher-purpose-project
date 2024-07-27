@@ -5,7 +5,6 @@ import AboutUsSection from "./homepage-sections/AboutUs";
 import OurMissionSection from "./homepage-sections/OurMission";
 import HowToHelpSection from "./homepage-sections/HowToHelp";
 import AchievementsSection from "./homepage-sections/Achievements";
-import FeaturedInSection from "./homepage-sections/FeaturedIn";
 import JoinUsSection from "./homepage-sections/JoinUs";
 import ContactUsSection from "./homepage-sections/ContactUs";
 
@@ -52,8 +51,6 @@ export default function Home() {
             <HowToHelpSection />
 
             <AchievementsSection />
-
-            <FeaturedInSection />
 
             <JoinUsSection />
 
