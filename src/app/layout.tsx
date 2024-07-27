@@ -8,10 +8,13 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "A Higher Purpose Project.com",
-    description: 'The Higher Purpose Project is a social media non-profit where students volunteer to provide aid to the poor and downtrodden.',
-    keywords: ['volunteer', 'higher purpose', 'organization', 'student'],
-    
+    title: {
+        template: "%s | A Higher Purpose",
+        default: "A Higher Purpose.com",
+    },
+    description:
+        "The Higher Purpose Project is a social media non-profit where students volunteer to provide aid to the poor and downtrodden.",
+    keywords: ["volunteer", "higher purpose", "organization", "student"],
 };
 
 export default function RootLayout({
@@ -23,7 +26,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={inter.className}>
                 <Header />
-                {children}
+                <main>{children}</main>
                 <Footer />
             </body>
         </html>

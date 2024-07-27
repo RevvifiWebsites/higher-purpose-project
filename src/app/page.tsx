@@ -11,7 +11,7 @@ import ContactUsSection from "./homepage-sections/ContactUs";
 
 export default function Home() {
     return (
-        <main>
+        <div>
             <div className="pb-12 pt-12 md:pb-32 md:pt-24">
                 <div className="container">
                     <div>
@@ -58,6 +58,6 @@ export default function Home() {
             <JoinUsSection />
 
             <ContactUsSection />
-        </main>
+        </div>
     );
 }
