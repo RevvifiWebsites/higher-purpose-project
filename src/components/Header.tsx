@@ -55,7 +55,7 @@ export function MainNavigation() {
         ["About Us", "#about-us"],
         ["Past Projects", "/past-projects"],
         ["Our Mission", "#our-mission"],
-        ["Core Members", ""],
+        ["Core Members", "/core-members"],
         ["Join Us", "https://www.instagram.com/a.higherpurpose.foundation/"],
         ["Donate", ""],
     ];
