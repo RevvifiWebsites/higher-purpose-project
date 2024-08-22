@@ -16,7 +16,7 @@ export default function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="" className="hover:underline">
+                            <Link href="mailto:tazwarmustafa57@gmail" className="hover:underline">
                                 Email
                             </Link>
                         </li>

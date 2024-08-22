@@ -25,7 +25,7 @@ export default function HowToHelpSection() {
                         Join Us
                     </Link>
                     <Link
-                        href=""
+                        href="/"
                         className="hover:bg-gray-700 focus-visible:bg-gray-700 block rounded-lg bg-dark-gray px-4 py-2 text-lg font-bold text-white outline-offset-2"
                     >
                         Donate

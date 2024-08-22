@@ -52,12 +52,12 @@ const item = {
 export function MainNavigation() {
     const [open, setOpen] = useState(false);
     const navLinks = [
-        ["About Us", "#about-us"],
+        ["About Us", "/#about-us"],
         ["Past Projects", "/past-projects"],
-        ["Our Mission", "#our-mission"],
+        ["Our Mission", "/#our-mission"],
         ["Core Members", "/core-members"],
         ["Join Us", "https://www.instagram.com/a.higherpurpose.foundation/"],
-        ["Donate", ""],
+        ["Donate", "/#how-to-help"],
     ];
 
     const isDesktop = useMedia("(min-width: 1024px)");

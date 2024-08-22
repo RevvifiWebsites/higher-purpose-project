@@ -34,7 +34,7 @@ export default function Home() {
                                 Join Us
                             </Link>
                             <Link
-                                href=""
+                                href="#how-to-help"
                                 className="shadow-gray-400 block w-max rounded-lg bg-orange px-3 py-1 text-lg font-bold text-white shadow-lg hover:brightness-125 focus-visible:brightness-125"
                             >
                                 Donate
