@@ -9,7 +9,7 @@ export default function AchievementsSection() {
                     <li className="shadow-gray-300 rounded-xl bg-light-green p-6 pr-0 shadow-lg">
                         <p className="font-bold">
                             <span className="mb-4 block text-4xl text-orange lg:text-5xl">
-                                15000+
+                                20000+
                             </span>
                             <span className="text-2xl capitalize lg:text-[2.3rem]">
                                 helped
